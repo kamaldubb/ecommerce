@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		905EF05E9C8CDE4814E52EB8 /* Pods_EcommerceAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BDD3200E14EF56475945CB6 /* Pods_EcommerceAdmin.framework */; };
+		ADE6B1715DF8E92BEFCF00A0 /* Pods_Ecommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3559174F279D5AAB964A242D /* Pods_Ecommerce.framework */; };
+		D33437C6246BC5B100019B82 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33437C5246BC5B100019B82 /* LoginVC.swift */; };
+		D33437C8246BC5CD00019B82 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33437C7246BC5CD00019B82 /* RegisterVC.swift */; };
+		D33437CC246BE52900019B82 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33437CB246BE52900019B82 /* Extensions.swift */; };
+		D3D3DE9E246D19100096022C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3DE9D246D19100096022C /* Constants.swift */; };
+		D3D3DEA1246D22190096022C /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3DEA0246D22190096022C /* RoundedViews.swift */; };
 		D3E368A8246A6A7E0061854A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E368A7246A6A7E0061854A /* AppDelegate.swift */; };
 		D3E368AA246A6A7E0061854A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E368A9246A6A7E0061854A /* SceneDelegate.swift */; };
 		D3E368AC246A6A7E0061854A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E368AB246A6A7E0061854A /* ViewController.swift */; };
@@ -19,9 +26,22 @@
 		D3E368C9246A6A9E0061854A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E368C7246A6A9E0061854A /* Main.storyboard */; };
 		D3E368CE246A6A9F0061854A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E368CC246A6A9F0061854A /* LaunchScreen.storyboard */; };
 		D3E368D4246A6AD80061854A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E368B0246A6A7F0061854A /* Assets.xcassets */; };
+		D3E368D6246A77190061854A /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E368D5246A77190061854A /* LoginStoryboard.storyboard */; };
+		D3E368D8246A82A80061854A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3E368D7246A82A80061854A /* GoogleService-Info.plist */; };
+		D3E368DA246AB9100061854A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3E368D9246AB9100061854A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1180FAC1F62B29A688A24F06 /* Pods-Ecommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecommerce.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ecommerce/Pods-Ecommerce.release.xcconfig"; sourceTree = "<group>"; };
+		3559174F279D5AAB964A242D /* Pods_Ecommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDD3200E14EF56475945CB6 /* Pods_EcommerceAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcommerceAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6D654B9E3BA26EA038FF9C /* Pods-EcommerceAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceAdmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EcommerceAdmin/Pods-EcommerceAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		C31696937E2EEA80D0AB0A9F /* Pods-EcommerceAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceAdmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-EcommerceAdmin/Pods-EcommerceAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		D33437C5246BC5B100019B82 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D33437C7246BC5CD00019B82 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		D33437CB246BE52900019B82 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D3D3DE9D246D19100096022C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D3D3DEA0246D22190096022C /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
 		D3E368A4246A6A7E0061854A /* Ecommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E368A7246A6A7E0061854A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3E368A9246A6A7E0061854A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +57,10 @@
 		D3E368C8246A6A9E0061854A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3E368CD246A6A9F0061854A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3E368CF246A6A9F0061854A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3E368D5246A77190061854A /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		D3E368D7246A82A80061854A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D3E368D9246AB9100061854A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E45CF10B333993487317B394 /* Pods-Ecommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecommerce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ecommerce/Pods-Ecommerce.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE6B1715DF8E92BEFCF00A0 /* Pods_Ecommerce.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,12 +76,85 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				905EF05E9C8CDE4814E52EB8 /* Pods_EcommerceAdmin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B6945CE025258DBED33BDC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E45CF10B333993487317B394 /* Pods-Ecommerce.debug.xcconfig */,
+				1180FAC1F62B29A688A24F06 /* Pods-Ecommerce.release.xcconfig */,
+				BC6D654B9E3BA26EA038FF9C /* Pods-EcommerceAdmin.debug.xcconfig */,
+				C31696937E2EEA80D0AB0A9F /* Pods-EcommerceAdmin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FD58C266561DC85F8325223 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3559174F279D5AAB964A242D /* Pods_Ecommerce.framework */,
+				9BDD3200E14EF56475945CB6 /* Pods_EcommerceAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D33437BD246BC3A400019B82 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D33437C5246BC5B100019B82 /* LoginVC.swift */,
+				D33437C7246BC5CD00019B82 /* RegisterVC.swift */,
+				D3E368A7246A6A7E0061854A /* AppDelegate.swift */,
+				D3E368AB246A6A7E0061854A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D33437BE246BC3C200019B82 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D33437BF246BC3CA00019B82 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D33437C0246BC40B00019B82 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D3E368D5246A77190061854A /* LoginStoryboard.storyboard */,
+				D3E368AD246A6A7E0061854A /* Main.storyboard */,
+				D3E368B2246A6A7F0061854A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D33437CA246BE4E600019B82 /* utilis */ = {
+			isa = PBXGroup;
+			children = (
+				D33437CB246BE52900019B82 /* Extensions.swift */,
+				D3D3DE9D246D19100096022C /* Constants.swift */,
+			);
+			path = utilis;
+			sourceTree = "<group>";
+		};
+		D3D3DE9F246D21EF0096022C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3D3DEA0246D22190096022C /* RoundedViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D3E3689B246A6A7E0061854A = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +162,8 @@
 				D3E368A6246A6A7E0061854A /* Ecommerce */,
 				D3E368C0246A6A9E0061854A /* EcommerceAdmin */,
 				D3E368A5246A6A7E0061854A /* Products */,
+				7B6945CE025258DBED33BDC3 /* Pods */,
+				9FD58C266561DC85F8325223 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,11 +179,12 @@
 		D3E368A6246A6A7E0061854A /* Ecommerce */ = {
 			isa = PBXGroup;
 			children = (
-				D3E368A7246A6A7E0061854A /* AppDelegate.swift */,
+				D33437BF246BC3CA00019B82 /* Model */,
+				D33437BE246BC3C200019B82 /* View */,
+				D33437BD246BC3A400019B82 /* Controller */,
+				D33437C0246BC40B00019B82 /* Storyboards */,
 				D3E368A9246A6A7E0061854A /* SceneDelegate.swift */,
-				D3E368AB246A6A7E0061854A /* ViewController.swift */,
-				D3E368AD246A6A7E0061854A /* Main.storyboard */,
-				D3E368B2246A6A7F0061854A /* LaunchScreen.storyboard */,
+				D3E368D7246A82A80061854A /* GoogleService-Info.plist */,
 				D3E368B5246A6A7F0061854A /* Info.plist */,
 			);
 			path = Ecommerce;
@@ -97,6 +198,7 @@
 				D3E368C5246A6A9E0061854A /* ViewController.swift */,
 				D3E368C7246A6A9E0061854A /* Main.storyboard */,
 				D3E368CC246A6A9F0061854A /* LaunchScreen.storyboard */,
+				D3E368D9246AB9100061854A /* GoogleService-Info.plist */,
 				D3E368CF246A6A9F0061854A /* Info.plist */,
 			);
 			path = EcommerceAdmin;
@@ -105,6 +207,8 @@
 		D3E368D3246A6AAB0061854A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D3D3DE9F246D21EF0096022C /* Views */,
+				D33437CA246BE4E600019B82 /* utilis */,
 				D3E368B0246A6A7F0061854A /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -117,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3E368B8246A6A7F0061854A /* Build configuration list for PBXNativeTarget "Ecommerce" */;
 			buildPhases = (
+				D7E405181957A995AB3CDBFA /* [CP] Check Pods Manifest.lock */,
 				D3E368A0246A6A7E0061854A /* Sources */,
 				D3E368A1246A6A7E0061854A /* Frameworks */,
 				D3E368A2246A6A7E0061854A /* Resources */,
+				28EA228FAFEBD07A0243946B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3E368D0246A6A9F0061854A /* Build configuration list for PBXNativeTarget "EcommerceAdmin" */;
 			buildPhases = (
+				160A486201B26EB592C337E5 /* [CP] Check Pods Manifest.lock */,
 				D3E368BB246A6A9E0061854A /* Sources */,
 				D3E368BC246A6A9E0061854A /* Frameworks */,
 				D3E368BD246A6A9E0061854A /* Resources */,
+				9928D1815C8B7DF31D39EE18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,6 +300,8 @@
 				D3E368B4246A6A7F0061854A /* LaunchScreen.storyboard in Resources */,
 				D3E368B1246A6A7F0061854A /* Assets.xcassets in Resources */,
 				D3E368AF246A6A7E0061854A /* Main.storyboard in Resources */,
+				D3E368D8246A82A80061854A /* GoogleService-Info.plist in Resources */,
+				D3E368D6246A77190061854A /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3E368CE246A6A9F0061854A /* LaunchScreen.storyboard in Resources */,
+				D3E368DA246AB9100061854A /* GoogleService-Info.plist in Resources */,
 				D3E368D4246A6AD80061854A /* Assets.xcassets in Resources */,
 				D3E368C9246A6A9E0061854A /* Main.storyboard in Resources */,
 			);
@@ -207,14 +318,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		160A486201B26EB592C337E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcommerceAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28EA228FAFEBD07A0243946B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ecommerce/Pods-Ecommerce-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ecommerce/Pods-Ecommerce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9928D1815C8B7DF31D39EE18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EcommerceAdmin/Pods-EcommerceAdmin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CropViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcommerceAdmin/Pods-EcommerceAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7E405181957A995AB3CDBFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ecommerce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D3E368A0246A6A7E0061854A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D3E368AC246A6A7E0061854A /* ViewController.swift in Sources */,
+				D33437CC246BE52900019B82 /* Extensions.swift in Sources */,
 				D3E368A8246A6A7E0061854A /* AppDelegate.swift in Sources */,
+				D33437C6246BC5B100019B82 /* LoginVC.swift in Sources */,
+				D3D3DEA1246D22190096022C /* RoundedViews.swift in Sources */,
+				D3D3DE9E246D19100096022C /* Constants.swift in Sources */,
 				D3E368AA246A6A7E0061854A /* SceneDelegate.swift in Sources */,
+				D33437C8246BC5CD00019B82 /* RegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +603,7 @@
 		};
 		D3E368B9246A6A7F0061854A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45CF10B333993487317B394 /* Pods-Ecommerce.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -399,6 +621,7 @@
 		};
 		D3E368BA246A6A7F0061854A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1180FAC1F62B29A688A24F06 /* Pods-Ecommerce.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -416,6 +639,7 @@
 		};
 		D3E368D1246A6A9F0061854A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6D654B9E3BA26EA038FF9C /* Pods-EcommerceAdmin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -433,6 +657,7 @@
 		};
 		D3E368D2246A6A9F0061854A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31696937E2EEA80D0AB0A9F /* Pods-EcommerceAdmin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
